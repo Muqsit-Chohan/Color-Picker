@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  .colorContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+  }
+
+  .containerBox{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 50%;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3), -8px -8px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  
+  .colorBox {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .colorBox:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
